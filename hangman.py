@@ -13,7 +13,7 @@ def hangman():
     while predict > 0:
         choice = input("Please enter a letter: ").lower()  
 
-        if len(choice) < 1:
+        if len(choice) > 1:
             print("Please enter only a single letter.")
             continue
 
